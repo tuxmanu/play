@@ -11,4 +11,4 @@ RUN apt-get install -y wget
 # RUN apt-get install telnet
 
 
-CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
+#CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
