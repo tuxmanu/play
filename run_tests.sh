@@ -9,3 +9,4 @@ ps ax | grep httpd
 if wget --tries=2 http://localhost/index.html; then returncode=0; fi
 
 echo $returncode
+exit $returncode
