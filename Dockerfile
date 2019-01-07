@@ -7,7 +7,7 @@ COPY run_tests.sh /bin/run_tests.sh
 RUN chmod 755 /bin/run_tests.sh
 
 RUN apt-get update
-RUN apt-get install wget
+RUN apt-get install -y wget
 # RUN apt-get install telnet
 
 
